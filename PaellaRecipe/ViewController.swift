@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    private let paellaImage = UIImage(named: "paella.JPG")!
 
     init() {
         super.init(nibName: nil, bundle: nil)

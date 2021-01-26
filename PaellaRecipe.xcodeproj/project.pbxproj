@@ -12,6 +12,10 @@
 		1B34897825BFA8EB00AEF866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B34897725BFA8EB00AEF866 /* ViewController.swift */; };
 		1B34897D25BFA8ED00AEF866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B34897C25BFA8ED00AEF866 /* Assets.xcassets */; };
 		1B34898025BFA8ED00AEF866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B34897E25BFA8ED00AEF866 /* LaunchScreen.storyboard */; };
+		1B34899625C0555C00AEF866 /* RecipeStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B34899525C0555C00AEF866 /* RecipeStepsView.swift */; };
+		1B34899925C0B12D00AEF866 /* RecipeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B34899825C0B12D00AEF866 /* RecipeHeaderView.swift */; };
+		1B34899C25C0B59100AEF866 /* UIView+alignSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B34899B25C0B59100AEF866 /* UIView+alignSubview.swift */; };
+		1B3489A625C0B98F00AEF866 /* paella.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1B3489A525C0B98F00AEF866 /* paella.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		1B34897C25BFA8ED00AEF866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B34897F25BFA8ED00AEF866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B34898125BFA8ED00AEF866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B34899525C0555C00AEF866 /* RecipeStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStepsView.swift; sourceTree = "<group>"; };
+		1B34899825C0B12D00AEF866 /* RecipeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHeaderView.swift; sourceTree = "<group>"; };
+		1B34899B25C0B59100AEF866 /* UIView+alignSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+alignSubview.swift"; sourceTree = "<group>"; };
+		1B3489A525C0B98F00AEF866 /* paella.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paella.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				1B34897C25BFA8ED00AEF866 /* Assets.xcassets */,
 				1B34897E25BFA8ED00AEF866 /* LaunchScreen.storyboard */,
 				1B34898125BFA8ED00AEF866 /* Info.plist */,
+				1B34899525C0555C00AEF866 /* RecipeStepsView.swift */,
+				1B34899825C0B12D00AEF866 /* RecipeHeaderView.swift */,
+				1B34899B25C0B59100AEF866 /* UIView+alignSubview.swift */,
+				1B3489A525C0B98F00AEF866 /* paella.JPG */,
 			);
 			path = PaellaRecipe;
 			sourceTree = "<group>";
@@ -121,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3489A625C0B98F00AEF866 /* paella.JPG in Resources */,
 				1B34898025BFA8ED00AEF866 /* LaunchScreen.storyboard in Resources */,
 				1B34897D25BFA8ED00AEF866 /* Assets.xcassets in Resources */,
 			);
@@ -135,7 +148,10 @@
 			files = (
 				1B34897825BFA8EB00AEF866 /* ViewController.swift in Sources */,
 				1B34897425BFA8EB00AEF866 /* AppDelegate.swift in Sources */,
+				1B34899C25C0B59100AEF866 /* UIView+alignSubview.swift in Sources */,
+				1B34899625C0555C00AEF866 /* RecipeStepsView.swift in Sources */,
 				1B34897625BFA8EB00AEF866 /* SceneDelegate.swift in Sources */,
+				1B34899925C0B12D00AEF866 /* RecipeHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
